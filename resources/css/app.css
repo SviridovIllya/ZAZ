@@ -1,0 +1,11 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.list-group-item:hover {
+    filter: brightness(0.93);
+}
